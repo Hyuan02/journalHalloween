@@ -3,11 +3,10 @@ body{
   font-family: 'Halant', serif;
 }
 
-#decorativo1, #decorativo3{
+#decorativo1, #decorativo3, #decorativo4{
   width:100%;
   border-bottom:solid 2px;
-  border-color:#9e005e; 
-     
+  border-color:#9e005e;    
 }
 #decorativo2{
   width:100%;
@@ -20,12 +19,22 @@ body{
   margin-top:5px;
 }
 
-#img-logo{
-  width:30vw;
-  height:10vh;
-}
-
+  #img-logo{
+    width:75%;
+    margin:auto;
+  }
 h1{
   font-weight: 500;
   font-size: 4em;
+}
+
+#descricao{
+  font-size:1.5em;
+}
+
+@media(min-width:600px){
+    #img-logo{
+    width:50%;
+    margin:auto;
+  }
 }
