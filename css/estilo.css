@@ -20,12 +20,12 @@ body{
 }
 
   #img-logo{
-    width:75%;
+    width:100%;
     margin:auto;
   }
 h1{
   font-weight: 500;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 #descricao{
